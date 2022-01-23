@@ -92,6 +92,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="logEntry.cs" />
+    <Compile Include="logList.cs" />
     <Compile Include="NewMessage.cs" />
   </ItemGroup>
   <ItemGroup>

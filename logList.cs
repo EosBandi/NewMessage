@@ -10,6 +10,9 @@ using System.Runtime.CompilerServices;
 
 namespace MissionPlanner.NewMessage
 {
+
+
+    // A Sortable List of LogEntry items. Adds filtering possibilities including bitfield filtering for severity
     public class LogList<LogEntry> : BindingList<LogEntry>, IBindingListView
     {
 
